@@ -1,16 +1,22 @@
 {
-  "name": "@emulatorjs/emulatorjs",
-  "version": "4.2.1",
+  "name": "emulatorjs-minify",
+  "version": "1.0.1",
+  "description": "Minify the EmulatorJS javascript files",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/EmulatorJS/EmulatorJS.git"
+    "url": "git+https://github.com/EmulatorJS/EmulatorJS.git"
   },
-  "license": "GPL-3.0",
-  "description": "EmulatorJS is a frontend for RetroArch in the web browser.",
-  "scripts": {
-    "start": "http-server"
+  "author": "Ethan O'Brien",
+  "bugs": {
+    "url": "https://github.com/EmulatorJS/EmulatorJS/issues"
   },
+  "homepage": "https://github.com/EmulatorJS/EmulatorJS#readme",
   "dependencies": {
-    "http-server": "^14.1.1"
+    "uglify-js": "^3.17.4",
+    "uglifycss": "0.0.29"
   }
 }
