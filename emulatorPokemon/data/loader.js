@@ -137,7 +137,7 @@
         }
     }
     
-    window.EJS_emulator = new EmulatorJS(EJS_player, config);
+    window.EJS_emulator = new emulatorPokemon(EJS_player, config);
     window.EJS_adBlocked = (url, del) => window.EJS_emulator.adBlocked(url, del);
     if (typeof window.EJS_ready === "function") {
         window.EJS_emulator.on("ready", window.EJS_ready);
